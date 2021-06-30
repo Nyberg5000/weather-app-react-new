@@ -13,6 +13,8 @@ export default function Weather() {
                 id="city-name"
                 className="form-control"
                 placeholder="Enter name of city"
+                autoFocus="on"
+                autoComplete="off"
               />
             </div>
             <div className="col-4">
