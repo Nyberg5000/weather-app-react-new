@@ -13,11 +13,13 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6 temperature-column">
           <div className="img-temp">
-            <img
-              src="http://openweathermap.org/img/wn/10d@2x.png"
-              alt="icon"
-              className="weather-icon"
-            />
+            <div className="image-icon">
+              <img
+                src={props.data.icon}
+                alt={props.data.description}
+                className="weather-icon"
+              />
+            </div>
             <span className="city-temp">
               {Math.round(props.data.temperature)}°C{" "}
             </span>
