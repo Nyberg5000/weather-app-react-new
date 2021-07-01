@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
           <div className="img-temp">
             <div className="image-icon">
               <img
-                src={props.data.icon}
+                src="http://openweathermap.org/img/wn/1${props.response.icon}@2x.png"
                 alt={props.data.description}
                 className="weather-icon"
               />
