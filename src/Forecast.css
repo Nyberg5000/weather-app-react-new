@@ -1,0 +1,9 @@
+.WeatherForecast {
+  color: #8f968d;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.Forecast-min-temp {
+  opacity: 0.6;
+}

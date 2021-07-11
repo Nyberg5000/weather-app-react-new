@@ -9,9 +9,11 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-6 city-column">
           <h1>{props.data.city} </h1>
-          <p className="date">
-            <FormatDate date={props.data.date} />
-          </p>
+          <div className="date">
+            <p>
+              <FormatDate date={props.data.date} />
+            </p>
+          </div>
         </div>
         <div className="col-6 temperature-column">
           <div className="img-temp">
