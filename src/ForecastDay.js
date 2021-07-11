@@ -10,7 +10,7 @@ export default function ForecastDay(props) {
   return (
     <div>
       <div className="Forecast-day">{day()}</div>
-      <div className="Forecast-icon"> {props.data.weather[0].icon} ☀</div>
+      <div className="Forecast-icon"> {props.code.icon} </div>
       <span className="Forecast-min-temp">
         {Math.round(props.data.temp.min)}°{" "}
       </span>
