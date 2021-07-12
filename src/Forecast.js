@@ -25,7 +25,7 @@ export default function Forecast(props) {
           {forecast.map(function (oneDayForecast, index) {
             if (index < 5) {
               return (
-                <div className="col">
+                <div key={index} className="col">
                   <ForecastDay data={oneDayForecast} />
                 </div>
               );
