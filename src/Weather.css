@@ -39,21 +39,31 @@ h1 {
   margin-left: -30px;
   margin-bottom: -35px;
 }
+
 .city-temp {
   color: #cc8fa4;
   position: relative;
-  bottom: 43px;
-  left: 47px;
+  bottom: 86px;
+  left: 94px;
+}
+a {
+  color: black;
+  opacity: 0.4;
 }
 
 .temperature-column {
   padding-left: 30px;
 }
-.description {
+.weather-description {
   text-transform: capitalize;
 }
+ul li {
+  position: relative;
+  left: -54px;
+  bottom: 53px;
+}
 
-.btn {
+.btn-primary {
   position: relative;
   left: -16px;
   top: -1px;
@@ -75,4 +85,7 @@ h1 {
   position: relative;
   left: 15px;
   top: 15px;
+}
+.col {
+  padding: 0px;
 }
